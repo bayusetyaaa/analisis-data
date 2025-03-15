@@ -7,7 +7,7 @@ import os
 
 sns.set(style='dark')
 
-all_df = pd.read_csv("all_data.csv")
+all_df = pd.read_csv("Dashboard/all_data.csv")
 all_df['dteday'] = pd.to_datetime(all_df['dteday'])
 
 with st.sidebar:
